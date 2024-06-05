@@ -18,7 +18,7 @@ Este desafio de código é parte da masterclass da @cartesiproject no Brasil, re
 
 ## Dicas
 
--   Você pode utilizar o nonodo para testar mais rapidamente. O endereço a ser utilizado no Cartesi Send é: 0x70ac08179605AF2D9e75782b8DEcDD3c22aA4D0C
+-   Você pode utilizar o nonodo para testar mais rapidamente. O endereço a ser utilizado no ```cartesi send``` é: 0x70ac08179605AF2D9e75782b8DEcDD3c22aA4D0C
 -   Em modo de produção, você pode utilizar o endereço padrão: 0xab7528bb862fb57e8a2bcd567a2e929a0be56a5e
 
 ## Template de Mensagem
@@ -40,7 +40,7 @@ Aqui está um vídeo demonstrando a resolução do code challenge apresentado no
 1.  Clone o repositório:
     
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/henriquemarlon/cartesi-code-challenge-1.git
 ```
 
 ### 2. Rodando o Código
