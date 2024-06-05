@@ -64,11 +64,11 @@ cartesi send generic \                                                    ─╯
 
 Envie quantas inputs achar necessário para encontrar o guess!
 
-### 3. Encontrando o Guess
+### 4. Encontrando o Guess
 
 Utilize a função check_guess para testar diferentes valores até encontrar o valor correto que muda o estado para RED, logo após,leia esse estado. Documente o processo no README.
 
-### 4. Postagem no Twitter
+### 5. Postagem no Twitter
 
 Grave um vídeo demonstrando o processo e poste no Twitter|X utilizando o template fornecido.
 
