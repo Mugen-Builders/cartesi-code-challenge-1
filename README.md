@@ -42,8 +42,6 @@ Aqui está um vídeo demonstrando a resolução do code challenge apresentado no
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
- 
-    
 
 ### 2. Rodando o Código
 
@@ -51,6 +49,17 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd challenge
 cartesi build
 cartesi run
+```
+
+### 3. Interaja com o dApp:
+
+```bash
+cartesi send generic \                                                    ─╯
+    --dapp=<endereço-do-dapp> \
+    --chain-id=31337 \
+    --rpc-url=http://127.0.0.1:8545 \
+    --mnemonic-passphrase='test test test test test test test test test test test junk' \
+    --input='<seu-input-aqui>'
 ```
 
 Envie quantas inputs achar necessário para encontrar o guess!
