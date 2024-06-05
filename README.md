@@ -8,13 +8,13 @@ Este desafio de código é parte da masterclass da @cartesiproject no Brasil, re
 
 1.  *Encontrar o guess correto*:
     
-    -   Utilize o código fornecido para identificar o valor correto que deve ser adivinhado (guess) para mudar o estado da aplicação para RED.
+    -   Utilize o código fornecido para identificar o valor correto que deve ser adivinhado (guess) para mudar o estado da aplicação para RED. Logo após leia o estado atual que indica RED.
 2.  *Documentar o processo*:
     
     -   Crie um README documentando cada passo que você tomou para encontrar o guess correto. Inclua como você utilizou as funções notice, report e inspect durante o processo.
-3.  *Postagem no Twitter*:
+3.  *Postagem no Twitter|X*:
     
-    -   Faça uma postagem no Twitter com um vídeo demonstrando a resolução do desafio. Use o template de mensagem fornecido abaixo e sinta-se à vontade para comentar sobre a experiência da masterclass.
+    -   Faça uma postagem no Twitter|X com um vídeo demonstrando a resolução do desafio. Use o template de mensagem fornecido abaixo e sinta-se à vontade para comentar sobre a experiência da masterclass.
 
 ## Dicas
 
@@ -22,11 +22,10 @@ Este desafio de código é parte da masterclass da @cartesiproject no Brasil, re
 -   Em modo de produção, você pode utilizar o endereço padrão: 0xab7528bb862fb57e8a2bcd567a2e929a0be56a5e
 
 ## Template de Mensagem
-
-bash
+```text
 Estou participando da @cartesiproject masterclass, brazil, que está acontecendo no Inteli. 
 Aqui está um vídeo demonstrando a resolução do code challenge apresentado no dia 2. Acesse o link [hyperlink], para o README onde eu explico como resolvi esse desafio.
-
+```
 
 ## Estrutura do Repositório
 
@@ -40,15 +39,16 @@ Aqui está um vídeo demonstrando a resolução do code challenge apresentado no
 
 1.  Clone o repositório:
     
-    bash
-    
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio` 
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+ 
     
 
 ### 2. Rodando o Código
 
-bash
+```bash
+cd challenge
 cartesi build
 cartesi run
 ```
@@ -57,11 +57,11 @@ Envie quantas inputs achar necessário para encontrar o guess!
 
 ### 3. Encontrando o Guess
 
-Utilize a função check_guess para testar diferentes valores até encontrar o valor correto que muda o estado para RED. Documente o processo no README.
+Utilize a função check_guess para testar diferentes valores até encontrar o valor correto que muda o estado para RED, logo após,leia esse estado. Documente o processo no README.
 
 ### 4. Postagem no Twitter
 
-Grave um vídeo demonstrando o processo e poste no Twitter utilizando o template fornecido.
+Grave um vídeo demonstrando o processo e poste no Twitter|X utilizando o template fornecido.
 
 ## Observações Finais
 
